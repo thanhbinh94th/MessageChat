@@ -1,11 +1,11 @@
 {
-  "name": "messagechat",
+  "name": "fb-messenger-bot-vercel",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vercel dev"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {}
 }
